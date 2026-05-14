@@ -1,18 +1,15 @@
-# 🌦️ Weather Application
+# 🌐 Interactive Navigation Menu
 
-A weather forecasting web application that fetches real-time weather data using an API and displays weather details for any city.
+An interactive and responsive navigation menu built using HTML, CSS, and JavaScript. The navbar changes style on scroll and provides smooth navigation across different sections of the webpage.
 
 ## 🚀 Features
-- Search weather by city
-- Real-time weather updates
-- Temperature, humidity, and wind details
-- Responsive UI
-- Weather icons display
+- Fixed responsive navigation bar
+- Navbar color change on scroll
+- Smooth scrolling effect
+- Hover animations on menu items
+- Responsive webpage layout
 
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - JavaScript
-- Weather API
-
-## 📂 Project Structure
