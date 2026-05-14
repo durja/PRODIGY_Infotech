@@ -1,0 +1,62 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fixed Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 123, 255, 0.9);
+  padding: 15px 0;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #0056b3;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: white;
+  color: #0056b3;
+  border-radius: 6px;
+}
+
+/* Sections for scroll effect */
+section {
+  height: 100vh;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 2rem;
+  background: #f0f8ff;
+  border-bottom: 1px solid #ccc;
+}
+
+#services { background: #e6f7ff; }
+#portfolio { background: #ccf2ff; }
+#about { background: #b3ecff; }
+#contact { background: #99e6ff; }
